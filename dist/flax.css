@@ -1,0 +1,89 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100%;
+        overflow: hidden;
+    }
+    body{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
+    .head{
+        height: 60px;
+        background-color:lightskyblue;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        line-height: 60px;
+        color: white;
+        font-size: 20px;
+    }
+    .zhiti span{
+        border: 1px solid white;
+    }
+    .xi{
+        color: lightskyblue;
+        background-color: white;
+    }
+    .jia{
+        margin-right: 20px;
+        font-size: 35px;
+    }
+    img{
+        margin-left: 20px;
+        width: 40px;
+        height: 40px;
+        border-radius: 70%;
+        margin-top: 10px;
+    }
+    .cont{
+        overflow-y: auto;
+        width: 100%;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: white;
+        -ms-flex:1;
+        flex:1;
+        -ms-flex-flow: column;
+        flex-flow: column;
+
+    }
+    .sou{
+        border-radius: 5%;
+        border: 1px solid #eee;
+        background-color: #cccccc;
+        text-align: center;
+        margin: 10px;
+    }
+    .cont li{
+        margin-right: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    .foed{
+        display: -ms-flexbox;
+        display: flex;
+        height: 50px;
+        background-color: white;
+        border-top: 1px solid #cccccc;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin: 0 30px;
+        line-height: 50px;
+    }
+    .lie{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .lie span{
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    }
