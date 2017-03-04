@@ -1,0 +1,112 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100%;
+        overflow-y: auto;
+    }
+    body{
+        background-color: #eee;
+    }
+    .header div{
+        height: 80px;
+    }
+    #sou{
+        width: 100%;
+        margin:0 20px;
+        margin-top: 35px;
+        border-radius: 70px;
+    }
+    .neirong{
+        margin-top: 80px;
+        padding-bottom: 100px;
+
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .swiper-slide img{
+        width: 100%;
+        height: 200px;
+    }
+    .swiper-slide {
+        /* Center slide text vertically */
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .ren a{
+        background-color: white;
+        border: 1px solid #eee;
+        border-right: none;
+        font-size: 20px;
+        line-height: 70px;
+    }
+    .ren{
+        height: 70px;
+    }
+    .btn1{
+        color: #007aff;
+    }
+    .xun p{
+        line-height: 50px;
+        margin-left: 20px;
+        height: 60px;
+        font-size: 20px;
+        border-bottom: 1px solid #ccc;
+    }
+    .xun img{
+        padding-right: 20px;
+    }
+    .yige{
+        margin-left: 20px;
+        height: 80px;
+        color: #8f8f8f;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .zheng{
+        margin-top: 10px;
+    }
+    .tu{
+        margin-top: -5px;
+    }
+    .tu a{
+        line-height: 30px;
+        font-size: 18px;
+    }
+    .tu i{
+        color: #007aff;
+    }
+    .fud i{
+        margin-left: 130px;
+    }
+    .fud{
+        margin-left: 50px;
+    }
+    .fud span{
+        float: right;
+        border-radius: 20px;
+        color: orangered;
+        border: 1px solid orangered;
+    }
+    .zheng{
+        background-color: white;
+    }
+    .conat i {
+        color: #8f8f8f;
+    }
+    .conat,.ht{
+        color: #0a9dc7;
+    }
+    .ht i{
+        color: #0a9dc7;
+    }

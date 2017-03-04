@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../20170301/css/ionic.css">
+    <link rel="stylesheet" href="../weiper/swiper-3.4.1.min.css">
+    <script src="../weiper/swiper-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="../dist/faxian.css">
+</head>
+<body>
+    <div class="header">
+        <div class="bar bar-header bar-positive ">
+            <label class="item item-input" id="sou">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="text" placeholder="搜索"  >
+            </label>
+        </div>
+    </div>
+    <div class="neirong">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../img/5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../img/6.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../img/7.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../img/8.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../img/9%20-%20副本.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="button-bar ren" >
+            <a class="button btn1">商情</a>
+            <a class="button btn2">活动</a>
+            <a class="button btn3">招聘</a>
+        </div>
+        <div class="zheng">
+           <div class="xun">
+               <p><img src="../img/10.png" alt="">寻找意大利地接社</p>
+           </div>
+            <p class="yige">10月12日，我们有一个xx人的团去xxx。我们需要资源/服务。希望与你合作，提供相关资料</p>
+            <div class="tu">
+                <a class="item item-icon-left" href="#">
+                    <i class="icon ion-ios-eye"></i>
+                    阅读 200
+                    <span class="fud">
+                        <i class="icon ion-android-share-alt"></i>
+                        分享 2
+                        <span>发送申请</span>
+                    </span>
+                </a>
+            </div>
+            <div class="xun">
+                <p><img src="../img/10.png" alt="">寻找意大利地接社</p>
+            </div>
+            <p class="yige">10月12日，我们有一个xx人的团去xxx。我们需要资源/服务。希望与你合作，提供相关资料</p>
+            <div class="tu">
+                <a class="item item-icon-left" href="#">
+                    <i class="icon ion-ios-eye"></i>
+                    阅读 200
+                    <span class="fud">
+                        <i class="icon ion-android-share-alt"></i>
+                        分享 2
+                        <span>发送申请</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="conat">
+        <div class="tabs tabs-icon-top">
+            <a class="tab-item">
+                <i class="icon ion-home"></i>
+                首页
+            </a>
+            <a class="tab-item ">
+                <i class="icon ion-android-textsms"></i>
+                话题
+            </a>
+            <a class="tab-item ht">
+                <i class="icon ion-ios-eye-outline"></i>
+                发现
+            </a>
+            <a class="tab-item">
+                <i class="icon ion-android-mail"></i>
+                信息
+            </a>
+            <a class="tab-item">
+                <i class="icon ion-person"></i>
+                我的
+            </a>
+        </div>
+    </div>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            slidesPerView: 1,
+            paginationClickable: true,
+            spaceBetween: 30,
+            loop: true,
+            autoplay:2000
+        });
+    </script>
+</body>
+</html>

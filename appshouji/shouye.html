@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../20170301/css/ionic.css">
+    <link rel="stylesheet" href="../weiper/swiper-3.4.1.min.css">
+    <link rel="stylesheet" href="../dist/shouye.css">
+    <script src="../weiper/swiper-3.4.1.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="bar bar-header bar-light">
+            <label class="item item-input" id="sou">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="text" placeholder="找资源，找供应商"  >
+            </label>
+            <p class="fab">发布</p>
+        </div>
+    </div>
+    <div class="neirong">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../img/11.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../img/12.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../img/13.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../img/15.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../img/16.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="row rocl">
+            <div class="col col1"><i class="ion-social-codepen-outline"></i><p>资源</p></div>
+            <div class="col col2"><i class="ion-ios-help-outline"></i><p>需求</p></div>
+            <div class="col col3"><i class="ion-android-happy"></i><p>话题</p></div>
+            <div class="col col4"><i class="ion-ios-tennisball-outline"></i><p>活动</p></div>
+            <div class="col col5"><i class="ion-ios-analytics-outline"></i><p>职位</p></div>
+        </div>
+        <div class="row rocl juli">
+            <div class="col col6"><i class="ion-social-chrome-outline"></i><p>资源</p></div>
+            <div class="col col7"><i class="ion-ios-help-outline"></i><p>需求</p></div>
+            <div class="col col8"><i class="ion-android-time"></i><p>话题</p></div>
+            <div class="col col9"><i class="ion-ios-plus-outline"></i><p>活动</p></div>
+            <div class="col col0"><i class="ion-android-favorite-outline"></i><p>职位</p></div>
+        </div>
+        <div class="weng">
+            <div class="shang">旅游商情<span>更多></span></div>
+            <div class="img1">
+                <img src="../img/02.png">
+                <span class="span1">寻找意大利当地地接社，10月10日从北京出发，随时联络。</span>
+            </div>
+            <div class="img2">
+                <img src="../img/01.png">
+                <span class="span2">直飞美观包机合作，优质服务</span>
+            </div>
+        </div>
+        <div class="zhiwei">
+            <a class="item item-icon-left" href="#">
+                热招职位
+                <span class="item-note">
+                  更多>
+                </span>
+            </a>
+            <div class="yaoqiu">
+                <p class="shis">项目管理实习生（PMO）-项目管理</p>
+                <p class="difan">北京<span class="spann">3-5年</span><spna>本科</spna> <span class="qian">10-12k</span></p>
+            </div>
+            <div class="yaoqiu btn1">
+                <p class="shis">内容编辑员</p>
+                <p class="difan">北京<span class="spann">3-5年</span><spna>本科</spna> <span class="qian">8-10k</span></p>
+            </div>
+            <div class="yaoqiu btn1">
+                <p class="shis">欧洲旅游操作师</p>
+                <p class="difan">上海<span class="spann">3-5年</span><spna>本科</spna> <span class="qian">10-12k</span></p>
+            </div>
+        </div>
+        <div class="dibutu">
+            <div class="zuixin">
+                <a class="item item-icon-left" href="#">
+                    最新资源
+                    <span class="item-note">
+                         更多>
+                    </span>
+                </a>
+            </div>
+            <div class="list">
+                <a class="item item-thumbnail-left hbt" href="#">
+                    <img src="../img/5.jpg">
+                    <h2>北欧印象国际旅行社</h2>
+                    <p>北欧5国<span class="zuc">1DS邀请函</span><span>租车</span></p>
+                    <p class="jingd">阅读 100 <span>地接社</span> <span>批发商</span> <span>景点景区</span></p>
+                </a>
+                <a class="item item-thumbnail-left hbt" href="#">
+                    <img src="../img/6.jpg">
+                    <h2>北欧印象国际旅行社</h2>
+                    <p>北欧5国<span class="zuc">1DS邀请函</span><span>租车</span></p>
+                    <p class="jingd">阅读 100 <span>地接社</span> <span>批发商</span> <span>景点景区</span></p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="conat">
+        <div class="tabs tabs-icon-top">
+            <a class="tab-item ht">
+                <i class="icon ion-home"></i>
+                首页
+            </a>
+            <a class="tab-item">
+                <i class="icon ion-android-textsms"></i>
+                话题
+            </a>
+            <a class="tab-item">
+                <i class="icon ion-ios-eye-outline"></i>
+                发现
+            </a>
+            <a class="tab-item">
+                <i class="icon ion-android-mail"></i>
+                信息
+            </a>
+            <a class="tab-item">
+                <i class="icon ion-person"></i>
+                我的
+            </a>
+        </div>
+    </div>
+
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            slidesPerView: 1,
+            paginationClickable: true,
+            spaceBetween: 30,
+            loop: true,
+            autoplay:2000
+        });
+    </script>
+</body>
+</html>
